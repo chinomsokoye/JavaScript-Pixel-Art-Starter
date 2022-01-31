@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Chinomso Okoye">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <h1>Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+
+    <form id="sizePicker">
+        <strong>Grid Height:</strong>
+        <input type="number" id="inputHeight" name="height" min="1" max="50" value="1">
+        <strong>Grid Width:</strong>
+        <input type="number" id="inputWidth" name="width" min="1" max="50" value="1">
+        <input type="submit">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+
+<script src="designs.js"></script>
+
+</body>
+</html>
